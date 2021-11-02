@@ -89,7 +89,7 @@ function Button() {
     <button value="*"  name="*" className="B2"  onClick={sum}>*</button>
     <button value="C"  className="B2"  onClick={Clear}>C</button>
     <button value="0" className="B1"  onClick={val}>0</button>
-    <button value="AC"  className="B2"  onClick={AC}>AC</button>
+    <button value="AC"  className="B2" onClick={AC}>AC</button>
     <button value="/"  name="/" className="B2"  onClick={sum}>/</button>
     <button value="." className="B1"  onClick={dot}>.</button>
     <button value=""  className="B3"  onClick={equal}>=</button>
