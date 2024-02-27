@@ -70,6 +70,7 @@ function Button() {
     setSym("");
   };
 
+<<<<<<< HEAD
   return (
     <div className="Box ">
       <div className="Inputb">
@@ -136,6 +137,31 @@ function Button() {
       <button value="%" name="%" className="B2" onClick={sum}>
         %
       </button>
+=======
+    return (
+        <div className="Box " >
+        <div className="Inputb"><h1> {num} {Symbol} {Cal}</h1></div>
+       <br/>
+    <button value="1" className="B1"  onClick={val}>1</button>
+    <button value="2" className="B1"  onClick={val}>2</button>
+    <button value="3" className="B1"  onClick={val}>3</button>
+    <button value="+"  name="+" className="B2"  onClick={sum}>+</button>
+    <button value="4" className="B1"  onClick={val}>4</button>
+    <button value="5" className="B1"  onClick={val}>5</button>
+    <button value="6" className="B1"  onClick={val}>6</button>
+    <button value="-"   name="-" className="B2"  onClick={sum}>-</button>
+    <button value="7" className="B1"  onClick={val}>7</button>
+    <button value="8" className="B1"  onClick={val}>8</button> 
+    <button value="9" className="B1"  onClick={val}>9</button>
+    <button value="*"  name="*" className="B2"  onClick={sum}>*</button>
+    <button value="C"  className="B2"  onClick={Clear}>C</button>
+    <button value="0" className="B1"  onClick={val}>0</button>
+    <button value="AC"  className="B2" onClick={AC}>AC</button>
+    <button value="/"  name="/" className="B2"  onClick={sum}>/</button>
+    <button value="." className="B1"  onClick={dot}>.</button>
+    <button value=""  className="B3"  onClick={equal}>=</button>
+    <button value="%"  name="%" className="B2"  onClick={sum}>%</button>
+>>>>>>> 02ab3552628f0200075085c3b46a491ecdb0c678
     </div>
   );
 }
